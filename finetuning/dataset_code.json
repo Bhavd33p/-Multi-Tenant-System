@@ -1,0 +1,26 @@
+[
+    {
+      "messages": [
+        {
+          "role": "user",
+          "content": "Write a python function to find the maximum element in a list."
+        },
+        {
+          "role": "assistant",
+          "content": "def find_max(lst):\n    if not lst:\n        return None\n    return max(lst)"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "user",
+          "content": "Create a python function to check if a string is a palindrome."
+        },
+        {
+          "role": "assistant",
+          "content": "def is_palindrome(s):\n    clean_s = ''.join(e for e in s if e.isalnum()).lower()\n    return clean_s == clean_s[::-1]"
+        }
+      ]
+    }
+  ]

@@ -1,0 +1,26 @@
+[
+    {
+      "messages": [
+        {
+          "role": "user",
+          "content": "Extract KPI entities from text: The company reported a net profit margin of 24.5% with a revenue stream totaling $4.2M."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"net_profit_margin\": \"24.5%\", \"revenue\": \"$4,200,000\"}"
+        }
+      ]
+    },
+    {
+      "messages": [
+        {
+          "role": "user",
+          "content": "Extract KPI entities from text: Quarterly operational expenses rose to $1.1M, leading to a reduced net profit margin of 12.8%."
+        },
+        {
+          "role": "assistant",
+          "content": "{\"operational_expenses\": \"$1,100,000\", \"net_profit_margin\": \"12.8%\"}"
+        }
+      ]
+    }
+  ]
